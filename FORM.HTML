@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="REGISTRO.JS" method="POST">
+            <LABEL for ="nombre">Nombre(s)</LABEL><br>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"><br><br>
+
+            <LABEL for ="apellido">Apellidos</LABEL><br>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido"><br><br>
+
+            <LABEL for ="email">Email</LABEL><br>
+            <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com"><br><br>
+
+            <LABEL for ="password">Contraseña</LABEL><br>
+            <input type="password" name="password" id="password"><br><br>
+
+            <LABEL for ="confirpassword">Confirmar contraseña</LABEL><br>
+            <input type="password" name="confirpassword" id="confirpassword"><br><br>
+
+            <LABEL for ="telefono">Télefono</LABEL><br>
+            <input type="tel" name="telefono" id="telefono" placeholder="987654321" maxlength="9" minlength="7"><br><br>
+
+            <LABEL for ="Fecha">Cumpleaños</LABEL><br>
+            <input type="date" name="Fecha" id="Fecha" ><br><br>
+
+            <h3>Sexo</h3>
+            <input type="radio" name="Sexo" id="Masculino" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" name="Sexo" id="Femenino" value="Femenino">
+            <label for="Femenino">Femenino</label><br><br>
+
+            <p>Selecciona tu temporada favorita</p>
+            <select name="Favorito" id="Favorito">
+                <option value="Temporada1">Temporada 1</option>
+                <option value="Temporada2">Temporada 2</option>
+                <option value="Temporada3">Temporada 3</option>
+                <option value="Temporada4">Temporada 4</option>
+                <option value="Temporada5">Temporada 5</option>
+                <option value="Temporada6">Temporada 6</option>
+                <option value="Temporada7">Temporada 7</option>
+                <option value="Temporada8">Temporada 8</option>
+            </select>
+            <br> <br>
+            <p>Comenta lo que mas te gustó de la serie:</p>
+            <textarea name="Descripcion" id="Descripcion" cols="60" rows="20"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        </main>
+</body>
+</html>
