@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ec847c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*el align items es para posicionar elementos
+ en una fila y el alignt content para elementos
+  d emas de una fila*/
+
+div {
+    width: 500px;
+    height: 500px;
+    background: paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+
+}
+
+article {
+    width: 60PX;
+    background-color: rgb(95, 202, 139);
+    margin: 15px;
+}
+
+
+
